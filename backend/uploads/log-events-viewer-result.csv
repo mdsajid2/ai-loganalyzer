@@ -1,0 +1,143 @@
+timestamp,message
+1716976789904,"[Container] 2024/05/29 09:59:47.296168 Running on CodeBuild On-demand
+"
+1716976789904,"[Container] 2024/05/29 09:59:47.296313 Waiting for agent ping
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.501483 Waiting for DOWNLOAD_SOURCE
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.646523 Phase is DOWNLOAD_SOURCE
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.647606 CODEBUILD_SRC_DIR=/codebuild/output/src3249293866/src
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.648059 YAML location is /codebuild/readonly/buildspec.yml
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.649874 Setting HTTP client timeout to higher timeout for S3 source
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.650002 Processing environment variables
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.664229 Moving to directory /codebuild/output/src3249293866/src
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.667194 Unable to initialize cache download: no paths specified to be cached
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.667531 Registering with agent
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.718141 Phases found in YAML: 2
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.718170  INSTALL: 2 commands
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.718175  BUILD: 2 commands
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.718518 Phase complete: DOWNLOAD_SOURCE State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.718544 Phase context status code:  Message: 
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.797144 Entering phase INSTALL
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.797712 Running command npm init -y
+"
+1716976789904,"Wrote to /codebuild/output/src3249293866/src/package.json:
+"
+1716976789904,"
+"
+1716976789904,"{
+"
+1716976789904,"  ""name"": ""src"",
+"
+1716976789904,"  ""version"": ""1.0.0"",
+"
+1716976789904,"  ""description"": ""<!-- title: 'AWS NodeJS Example' description: 'This template demonstrates how to deploy a NodeJS function running on AWS Lambda using the traditional Serverless Framework.' layout: Doc framework: v3 platform: AWS language: nodeJS priority: 1 authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->"",
+"
+1716976789904,"  ""main"": ""index.js"",
+"
+1716976789904,"  ""scripts"": {
+"
+1716976789904,"    ""test"": ""echo \""Error: no test specified\"" && exit 1""
+"
+1716976789904,"  },
+"
+1716976789904,"  ""keywords"": [],
+"
+1716976789904,"  ""author"": """",
+"
+1716976789904,"  ""license"": ""ISC""
+"
+1716976789904,"}
+"
+1716976789904,"
+"
+1716976789904,"
+"
+1716976789904,"
+"
+1716976789904,"[Container] 2024/05/29 09:59:48.974618 Running command npm install
+"
+1716976789904,"npm notice created a lockfile as package-lock.json. You should commit this file.
+"
+1716976789904,"npm WARN src@1.0.0 No repository field.
+"
+1716976789904,"
+"
+1716976789904,"up to date in 0.277s
+"
+1716976789904,"found 0 vulnerabilities
+"
+1716976789904,"
+"
+1716976789904,"
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.594718 Phase complete: INSTALL State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.594737 Phase context status code:  Message: 
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.631976 Entering phase PRE_BUILD
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.633987 Phase complete: PRE_BUILD State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.634004 Phase context status code:  Message: 
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.668254 Entering phase BUILD
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.668955 Running command echo 'Nothing to build'
+"
+1716976789904,"Nothing to build
+"
+1716976789904,"
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.674935 Running command echo 'run `npm run build` in real projects'
+"
+1716976789904,"run `npm run build` in real projects
+"
+1716976789904,"
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.680065 Phase complete: BUILD State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.680082 Phase context status code:  Message: 
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.714085 Entering phase POST_BUILD
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.715897 Phase complete: POST_BUILD State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.715915 Phase context status code:  Message: 
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.759919 Set report auto-discover timeout to 5 seconds
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.759955 Expanding base directory path:  .
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.761367 Assembling file list
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.761379 Expanding .
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.762764 Expanding file paths for base directory .
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.762774 Assembling file list
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.762777 Expanding **/*
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.764349 No matching auto-discover report paths found
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.764368 Report auto-discover file discovery took 0.004449 seconds
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.764379 Phase complete: UPLOAD_ARTIFACTS State: SUCCEEDED
+"
+1716976789904,"[Container] 2024/05/29 09:59:49.764438 Phase context status code:  Message: 
+"
